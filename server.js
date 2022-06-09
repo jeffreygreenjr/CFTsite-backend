@@ -2,6 +2,21 @@
 const express = require("express");
 const cors = require("cors");
 
+// Mongoose is a Object Data Modeling (ODM) library for 
+// MongoDB distributed as an npm package.
+const mongoose = require("mongoose");
+
+// configures and gives access to .env file object
+require('dotenv').config();
+
+mongoose.connect(process.env.MONGODB_URI)
+    .then( () => {
+        console.log(`[${new Date().toLocaleTimeString()}] - MongoDB connected ... 🙌 🙌 🙌`);
+    })
+    .catch( (error) => {
+        console.log('MongoDB connection error 😥', error)
+})
+
 // Import JSON files
 const about = require("./about.json");
 const classes = require("./classes.json");
