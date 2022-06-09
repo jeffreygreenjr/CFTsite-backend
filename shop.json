@@ -1,14 +1,12 @@
 [
     {
       "name": "CFT Hoodie",
-      "live": "https://app.herokuapp.com/whatever",
-      "git": "http://www.github.com/username/reponame",
+      "price": "35.00",
       "image": "http://www.imgur.com/pictureofproject.png"
     },
     {
       "name": "CFT T-Shirt",
-      "live": "https://app.netlify.app/whatever",
-      "git": "http://www.github.com/username/reponame",
+      "price": "25.00",
       "image": "http://www.imgur.com/pictureofproject.png"
     }
   ]

@@ -1,26 +1,90 @@
 [
     {
         "name": "Belal Muhammad",
-        "live": "https://app.herokuapp.com/whatever",
-        "git": "http://www.github.com/username/reponame",
-        "image": "http://www.imgur.com/pictureofproject.png"
+        "nickname": "Remember The Name",
+        "weight": "170lbs",
+        "weightclass": "WelterWeight",
+        "record": "21-3-0 (W-L-D)",
+        "image": "http://www.imgur.com/pictureofproject.png",
+        "competition": [
+            "MMA"
+        ],
+        "promotions": [
+            "UFC"
+        ]
     },
     {
         "name": "Horacio Gutierrez",
-        "live": "https://app.netlify.app/whatever",
-        "git": "http://www.github.com/username/reponame",
-        "image": "http://www.imgur.com/pictureofproject.png"
+        "nickname": "The Punisher",
+        "weight": "170lbs",
+        "weightclass": "Welterweight",
+        "record": "0-0-0 (W-L-D)",
+        "image": "http://www.imgur.com/pictureofproject.png",
+        "competition": [
+            "MMA"
+        ],
+        "promotions": [
+            "UFC"
+        ]
     },
     {
         "name": "Max Perez",
-        "live": "https://app.netlify.app/whatever",
-        "git": "http://www.github.com/username/reponame",
-        "image": "http://www.imgur.com/pictureofproject.png"
+        "nickname": "Maximo",
+        "weight": "155lbs",
+        "weightclass": "Lightweight",
+        "record": "0-0-0 (W-L-D)",
+        "image": "http://www.imgur.com/pictureofproject.png",
+        "competition": [
+            "MMA"
+        ],
+        "promotions": [
+            "B2 FIghting Series"
+        ]
+
     },
     {
         "name": "Alexis Rodriguez",
-        "live": "https://app.netlify.app/whatever",
-        "git": "http://www.github.com/username/reponame",
-        "image": "http://www.imgur.com/pictureofproject.png"
+        "nickname": "The Barber",
+        "weight": "220lbs",
+        "weightclass": "Heavyweight",
+        "record": "0-0-0 (W-L-D)",
+        "image": "http://www.imgur.com/pictureofproject.png",
+        "competition": [
+            "MMA"
+        ],
+        "promotions": [
+            "Fight Card Ent"
+        ]
+    },
+    {
+        "name": "Gabriel Mota",
+        "nickname": "Hands of Stone",
+        "weight": "205lbs",
+        "weightclass": "Light Heavyweight",
+        "record": "0-0-0 (W-L-D)",
+        "image": "http://www.imgur.com/pictureofproject.png",
+        "competition": [
+            "MMA",
+            "Boxing"
+        ],
+        "promotions": [
+            "Bare Knuckle Boxing",
+            "LFA"
+        ]
+    },
+    {
+        "name": "Mikhail Harris",
+        "nickname": "Banco",
+        "weight": "145lbs",
+        "weightclass": "Featherweight",
+        "record": "0-0-0 (W-L-D)",
+        "image": "http://www.imgur.com/pictureofproject.png",
+        "competition": [
+            "MMA",
+            "BJJ"
+        ],
+        "promotions": [
+            "Fight Card Ent"
+        ]
     }
   ]

@@ -1,38 +1,59 @@
 [
     {
         "name": "Roberto Ramirez",
-        "live": "https://app.herokuapp.com/whatever",
-        "git": "http://www.github.com/username/reponame",
+        "teaches": [
+            "Fighter Class",
+            "Advanced Striking"
+        ],
+        "belt": "Blue",
         "image": "http://www.imgur.com/pictureofproject.png"
     },
     {
         "name": "Malik Elliot",
-        "live": "https://app.netlify.app/whatever",
-        "git": "http://www.github.com/username/reponame",
+        "teaches": [
+            "No Gi BJJ",
+            "Gi BJJ"
+        ],
+        "belt": "Black",
         "image": "http://www.imgur.com/pictureofproject.png"
     },
     {
         "name": "Nicasio",
-        "live": "https://app.netlify.app/whatever",
-        "git": "http://www.github.com/username/reponame",
+        "teaches": [
+            "Fighter Class",
+            "Gi BJJ",
+            "Private Lessons"
+        ],
+        "belt": "Black",
         "image": "http://www.imgur.com/pictureofproject.png"
     },
     {
         "name": "Oskar Rozz",
-        "live": "https://app.netlify.app/whatever",
-        "git": "http://www.github.com/username/reponame",
+        "teaches": [
+            "Morning BJJ",
+            "Beginner Striking",
+            "Private Lessons"
+        ],
+        "belt": "Purple",
         "image": "http://www.imgur.com/pictureofproject.png"
     },
     {
         "name": "James Dunn",
-        "live": "https://app.netlify.app/whatever",
-        "git": "http://www.github.com/username/reponame",
+        "teaches": [
+            "MMA Drills",
+            "Advanced Striking",
+            "Private Lessons"
+        ],
+        "belt": "Purple",
         "image": "http://www.imgur.com/pictureofproject.png"
     },
     {
         "name": "Horacio Gutierrez",
-        "live": "https://app.netlify.app/whatever",
-        "git": "http://www.github.com/username/reponame",
+        "teaches": [
+            "Pro Fighter Class",
+            "Private Lessons"
+        ],
+        "belt": "Blue",
         "image": "http://www.imgur.com/pictureofproject.png"
     }
   ]
