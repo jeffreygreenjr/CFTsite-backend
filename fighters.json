@@ -2,6 +2,7 @@
     {
         "name": "Belal Muhammad",
         "nickname": "Remember The Name",
+        "stance": "Orthodox",
         "weight": "170lbs",
         "weightclass": "WelterWeight",
         "record": "21-3-0 (W-L-D)",
@@ -16,6 +17,7 @@
     {
         "name": "Horacio Gutierrez",
         "nickname": "The Punisher",
+        "stance": "Orthodox",
         "weight": "170lbs",
         "weightclass": "Welterweight",
         "record": "0-0-0 (W-L-D)",
@@ -30,6 +32,7 @@
     {
         "name": "Max Perez",
         "nickname": "Maximo",
+        "stance": "Orthodox",
         "weight": "155lbs",
         "weightclass": "Lightweight",
         "record": "0-0-0 (W-L-D)",
@@ -45,6 +48,7 @@
     {
         "name": "Alexis Rodriguez",
         "nickname": "The Barber",
+        "stance": "Orthodox",
         "weight": "220lbs",
         "weightclass": "Heavyweight",
         "record": "0-0-0 (W-L-D)",
@@ -59,6 +63,7 @@
     {
         "name": "Gabriel Mota",
         "nickname": "Hands of Stone",
+        "stance": "Orthodox",
         "weight": "205lbs",
         "weightclass": "Light Heavyweight",
         "record": "0-0-0 (W-L-D)",
@@ -75,6 +80,7 @@
     {
         "name": "Mikhail Harris",
         "nickname": "Banco",
+        "stance": "Southpaw",
         "weight": "145lbs",
         "weightclass": "Featherweight",
         "record": "0-0-0 (W-L-D)",

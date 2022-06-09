@@ -33,7 +33,7 @@ app.get("/classes", (req, res) => {
 });
 
 // route for retrieving coaches
-app.get("/coaches", (req, res) => {
+app.get("/coachingstaff", (req, res) => {
     // send coaches via JSON
     res.json(coaches);
 });
