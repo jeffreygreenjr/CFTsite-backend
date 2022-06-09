@@ -1,0 +1,62 @@
+[
+    {
+        "name": "Fighter Class - Invite Only",
+        "live": "https://app.herokuapp.com/whatever",
+        "git": "http://www.github.com/username/reponame",
+        "image": "http://www.imgur.com/pictureofproject.png"
+    },
+    {
+        "name": "Beginner Striking",
+        "live": "https://app.herokuapp.com/whatever",
+        "git": "http://www.github.com/username/reponame",
+        "image": "http://www.imgur.com/pictureofproject.png"
+    },
+    {
+        "name": "Advanced Striking",
+        "live": "https://app.netlify.app/whatever",
+        "git": "http://www.github.com/username/reponame",
+        "image": "http://www.imgur.com/pictureofproject.png"
+    },
+    {
+        "name": "Wrestling",
+        "live": "https://app.netlify.app/whatever",
+        "git": "http://www.github.com/username/reponame",
+        "image": "http://www.imgur.com/pictureofproject.png"
+    },
+    {
+        "name": "No Gi BJJ",
+        "live": "https://app.netlify.app/whatever",
+        "git": "http://www.github.com/username/reponame",
+        "image": "http://www.imgur.com/pictureofproject.png"
+    },
+    {
+        "name": "Gi BJJ",
+        "live": "https://app.netlify.app/whatever",
+        "git": "http://www.github.com/username/reponame",
+        "image": "http://www.imgur.com/pictureofproject.png"
+    },
+    {
+        "name": "Women's MMA",
+        "live": "https://app.herokuapp.com/whatever",
+        "git": "http://www.github.com/username/reponame",
+        "image": "http://www.imgur.com/pictureofproject.png"
+    },
+    {
+        "name": "MMA Drills",
+        "live": "https://app.herokuapp.com/whatever",
+        "git": "http://www.github.com/username/reponame",
+        "image": "http://www.imgur.com/pictureofproject.png"
+    },
+    {
+        "name": "Kids BJJ",
+        "live": "https://app.netlify.app/whatever",
+        "git": "http://www.github.com/username/reponame",
+        "image": "http://www.imgur.com/pictureofproject.png"
+    },
+    {
+        "name": "Open Mats",
+        "live": "https://app.herokuapp.com/whatever",
+        "git": "http://www.github.com/username/reponame",
+        "image": "http://www.imgur.com/pictureofproject.png"
+    }
+  ]
