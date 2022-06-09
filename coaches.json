@@ -1,0 +1,38 @@
+[
+    {
+        "name": "Roberto Ramirez",
+        "live": "https://app.herokuapp.com/whatever",
+        "git": "http://www.github.com/username/reponame",
+        "image": "http://www.imgur.com/pictureofproject.png"
+    },
+    {
+        "name": "Malik Elliot",
+        "live": "https://app.netlify.app/whatever",
+        "git": "http://www.github.com/username/reponame",
+        "image": "http://www.imgur.com/pictureofproject.png"
+    },
+    {
+        "name": "Nicasio",
+        "live": "https://app.netlify.app/whatever",
+        "git": "http://www.github.com/username/reponame",
+        "image": "http://www.imgur.com/pictureofproject.png"
+    },
+    {
+        "name": "Oskar Rozz",
+        "live": "https://app.netlify.app/whatever",
+        "git": "http://www.github.com/username/reponame",
+        "image": "http://www.imgur.com/pictureofproject.png"
+    },
+    {
+        "name": "James Dunn",
+        "live": "https://app.netlify.app/whatever",
+        "git": "http://www.github.com/username/reponame",
+        "image": "http://www.imgur.com/pictureofproject.png"
+    },
+    {
+        "name": "Horacio Gutierrez",
+        "live": "https://app.netlify.app/whatever",
+        "git": "http://www.github.com/username/reponame",
+        "image": "http://www.imgur.com/pictureofproject.png"
+    }
+  ]
