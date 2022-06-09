@@ -1,62 +1,74 @@
 [
     {
         "name": "Fighter Class - Invite Only",
-        "live": "https://app.herokuapp.com/whatever",
-        "git": "http://www.github.com/username/reponame",
-        "image": "http://www.imgur.com/pictureofproject.png"
+        "schedule": [
+            "Monday-Friday @ 6:00PM"
+        ],
+        "image": "https://thatshirt.com/wp-content/uploads/2017/12/thatshirt-t-shirt-clip-art-martial-arts-mma_fighter-39520.jpg"
     },
     {
         "name": "Beginner Striking",
-        "live": "https://app.herokuapp.com/whatever",
-        "git": "http://www.github.com/username/reponame",
-        "image": "http://www.imgur.com/pictureofproject.png"
+        "schedule": [
+            "Tuesday, Thursday @ 6:30PM"
+        ],
+        "image": "https://thatshirt.com/wp-content/uploads/2017/12/thatshirt-t-shirt-clip-art-martial-arts-mma_fighter_6-39516.jpg"
     },
     {
         "name": "Advanced Striking",
-        "live": "https://app.netlify.app/whatever",
-        "git": "http://www.github.com/username/reponame",
-        "image": "http://www.imgur.com/pictureofproject.png"
+        "schedule": [
+            "Monday, Wednesday @ 6:00PM"
+        ],
+        "image": "https://thatshirt.com/wp-content/uploads/2017/12/thatshirt-t-shirt-clip-art-martial-arts-mma_fighter_2-39512.jpg"
     },
     {
         "name": "Wrestling",
-        "live": "https://app.netlify.app/whatever",
-        "git": "http://www.github.com/username/reponame",
-        "image": "http://www.imgur.com/pictureofproject.png"
+        "schedule": [
+            "Friday @ 6:30PM"
+        ],
+        "image": "https://previews.123rf.com/images/meteoropata/meteoropata1701/meteoropata170100529/69777495-two-mma-fighters-in-ring-vector-silhouette-illustration-.jpg"
     },
     {
         "name": "No Gi BJJ",
-        "live": "https://app.netlify.app/whatever",
-        "git": "http://www.github.com/username/reponame",
-        "image": "http://www.imgur.com/pictureofproject.png"
+        "schedule": [
+            "Monday, Wednesday @ 7:00PM"
+        ],
+        "image": "data:image/png;base64,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"
     },
     {
         "name": "Gi BJJ",
-        "live": "https://app.netlify.app/whatever",
-        "git": "http://www.github.com/username/reponame",
-        "image": "http://www.imgur.com/pictureofproject.png"
+        "schedule": [
+            "Tuesday, Thursday @ 7:30PM"
+        ],
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBiduSIs915LMqo8-rgElC40B-HPEcZlpOrQ&usqp=CAU"
     },
     {
         "name": "Women's MMA",
-        "live": "https://app.herokuapp.com/whatever",
-        "git": "http://www.github.com/username/reponame",
-        "image": "http://www.imgur.com/pictureofproject.png"
+        "schedule": [
+            "Thursday @ 5:00PM",
+            "Saturday @ 10:00AM"
+        ],
+        "image": "https://i.pinimg.com/736x/7c/25/b0/7c25b06c650044a9fde4b97c705ad401.jpg"
     },
     {
         "name": "MMA Drills",
-        "live": "https://app.herokuapp.com/whatever",
-        "git": "http://www.github.com/username/reponame",
-        "image": "http://www.imgur.com/pictureofproject.png"
+        "schedule": [
+            "Monday, Wednesday @5:30PM",
+            "Saturday @ 10:30AM"
+        ],
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3BjDfHFOEhnLjip3HrtvFpbu4RB0-pIWYfdslXCGMDbgJMhFHjLO5UPbKBQZtHGGXL9g&usqp=CAU"
     },
     {
         "name": "Kids BJJ",
-        "live": "https://app.netlify.app/whatever",
-        "git": "http://www.github.com/username/reponame",
-        "image": "http://www.imgur.com/pictureofproject.png"
+        "schedule": [
+            "Tuesday, Thursday @ 6:30PM"
+        ],
+        "image": "https://www.clipartmax.com/png/middle/424-4240529_kids-brazilian-jiu-jitsu-ufa-grandparents-clip-art-kids-jiu-jitsu-clip.png"
     },
     {
         "name": "Open Mats",
-        "live": "https://app.herokuapp.com/whatever",
-        "git": "http://www.github.com/username/reponame",
-        "image": "http://www.imgur.com/pictureofproject.png"
+        "schedule": [
+            "Saturday @ 11:00AM"
+        ],
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_QwODK-pHkK6f8tFEzjJOkm0CgGm1KRlwaw&usqp=CAU"
     }
   ]
