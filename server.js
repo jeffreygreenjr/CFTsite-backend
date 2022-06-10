@@ -9,6 +9,7 @@ const PORT = process.env.PORT || 4000;
 /* SECTION DB CONNNECTION */
 require('./config/db.connection');
 
+const db = require('./models');
 
 // Import JSON files
 const about = require("./about.json");
@@ -47,9 +48,13 @@ app.get("/coachingstaff", (req, res) => {
 });
 
 // route for retrieving fighters
-app.get("/fighters", (req, res) => {
-    // send fighters via JSON
-    res.json(fighters);
+app.get("/fighters", async (req, res) => {
+    try {
+        const fighter = await db.Fighter.find({})
+        res.json(fighter);
+    } catch(error) {
+        res.status(400).json(error)
+    }
 });
 
 // route for retrieving shop items
