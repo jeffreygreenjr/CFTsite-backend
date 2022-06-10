@@ -1,21 +1,14 @@
 // Import Dependencies
 const express = require("express");
+const controllers = require('./controllers')
 const cors = require("cors");
 
-// Mongoose is a Object Data Modeling (ODM) library for 
-// MongoDB distributed as an npm package.
-const mongoose = require("mongoose");
+// Declare a variable for our port number
+const PORT = process.env.PORT || 4000;
 
-// configures and gives access to .env file object
-require('dotenv').config();
+/* SECTION DB CONNNECTION */
+require('./config/db.connection');
 
-mongoose.connect(process.env.MONGODB_URI)
-    .then( () => {
-        console.log(`[${new Date().toLocaleTimeString()}] - MongoDB connected ... 🙌 🙌 🙌`);
-    })
-    .catch( (error) => {
-        console.log('MongoDB connection error 😥', error)
-})
 
 // Import JSON files
 const about = require("./about.json");
@@ -65,8 +58,7 @@ app.get("/shop", (req, res) => {
     res.json(shop);
   });
 
-//declare a variable for our port number
-const PORT = process.env.PORT || 4000;
+
 
 // turn on the server listener
 app.listen(PORT, () => console.log(`Listening on port ${PORT}`));

@@ -1,6 +1,6 @@
 const mongoose = require('mongoose')
 
-const coachScema = new mongoose.Schema({
+const coachSchema = new mongoose.Schema({
     name: {
         type: String,
         required: [true, "Coach's name is required"]
@@ -24,4 +24,4 @@ const coachScema = new mongoose.Schema({
 )
 
 const Coach = mongoose.model('Coach', coachSchema)
-module.export = Coach;
+module.exports = Coach;

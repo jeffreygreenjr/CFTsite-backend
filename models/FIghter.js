@@ -1,6 +1,6 @@
 const mongoose = require('mongoose')
 
-const fighterScema = new mongoose.Schema({
+const fighterSchema = new mongoose.Schema({
     name: {
         type: String,
         required: [true, "Fighter's name is required"]
@@ -28,7 +28,7 @@ const fighterScema = new mongoose.Schema({
         type: String,
         default: "https://i.imgur.com/6uWXLaL.png"
     },
-    competition: {
+    competitiontype: {
         type: String,
         required: [true, "Their competition types are required"]
     },
@@ -42,4 +42,4 @@ const fighterScema = new mongoose.Schema({
 )
 
 const Fighter = mongoose.model('Fighter', fighterSchema)
-module.export = Fighter;
+module.exports = Fighter;

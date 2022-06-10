@@ -1,6 +1,6 @@
 const mongoose = require('mongoose')
 
-const classScema = new mongoose.Schema({
+const classSchema = new mongoose.Schema({
     name: {
         type: String,
         required: [true, "Coach's name is required"]
@@ -8,10 +8,6 @@ const classScema = new mongoose.Schema({
     schedule: {
         type: String,
         required: [true, "The class schedule is required"]
-    },
-    image: {
-        type: String,
-        required: [true, "Their belt level is required"]
     },
     image: {
         type: String,
@@ -24,4 +20,4 @@ const classScema = new mongoose.Schema({
 )
 
 const Class = mongoose.model('Class', classSchema)
-module.export = Class;
+module.exports = Class;
