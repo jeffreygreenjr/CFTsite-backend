@@ -34,7 +34,7 @@ app.use(function (req, res, next) {
 
 // ------CONTROLLERS------
 app.use("/classes", controllers.classes);
-app.use("/coaches", controllers.coaches);
+app.use("/coachingstaff", controllers.coaches);
 app.use("/fighters", controllers.fighters);
 
 // Import JSON files
@@ -63,10 +63,10 @@ app.get("/about", (req, res) => {
 // });
 
 // route for retrieving coaches
-app.get("/coachingstaff", (req, res) => {
-    // send coaches via JSON
-    res.json(coaches);
-});
+// app.get("/coachingstaff", (req, res) => {
+//     // send coaches via JSON
+//     res.json(coaches);
+// });
 
 // // route for retrieving fighters
 // app.get("/fighters", async (req, res) => {

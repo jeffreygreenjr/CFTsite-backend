@@ -7,72 +7,41 @@ const Class = require('./models/Class');
 const Coach = require('./models/Coach');
 const Fighter = require('./models/Fighter');
 
-Fighter.create(
+Coach.create(
     {
-        name: "BELAL MUHAMMAD",
-        nickname: "REMEMBER THE NAME",
-        stance: "Orthodox",
-        weight: "170lbs",
-        weightclass: "Welterweight",
-        record: "21-3-0 (W-L-D)",
-        image: "https://dmxg5wxfqgb4u.cloudfront.net/styles/athlete_bio_full_body/s3/2021-07/MUHAMMAD_BELAL_L_06-12.png?itok=0GphvQXy",
-        competitiontype: "MMA",
-        promotions: "UFC"
+        name: "Roberto Ramirez",
+        teaches: "Fighter Class, Advanced Striking",
+        belt: "Blue",
+        image: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAdVBMVEX///8AAAAsLCz09PTZ2dmnp6f4+PhKSkp0dHTj4+MaGhrw8PDq6upGRkazs7Pn5+ddXV0hISHQ0NATExOVlZW9vb0wMDChoaG2traamppYWFjFxcXNzc1kZGQ/Pz99fX2Li4twcHCFhYVycnJRUVE2NjYlJSVo4fQHAAAFfUlEQVR4nO2di3qiMBBGQRRBrBe8YL0hXev7P+JW7bYqiITMMD/ZnCfI+YAkM5kMjmOxWCwWi8VisVgsFovFYrFYLJam8fzxFc+XHgo5fhQfsl3/OB2cmfaPu2weR570sIjwkkPacQs5znutf5qLQ7HbDclGepD1CZPpS78zpySUHmotvI9KelcmY+nhqrOq9vx+CNr2HN/V/M58SI9ZiURd0HUHXelhK1BH8Iue9LgrM65p6AbSI69KVNfQPUoPvQJh+LUb+zRVMc46p9lsuvx8sk2rQiotUUK0ru91w0La4ymh4hr/FNRFYzgjEnT70ipPOFEJuu5K2qWQGtu050jLFEIp6I6kbQqYkxpOpHXy+FTz6Dd4oVSXVhAwklKJ56uwlhbKMSE2hFv1Q2pBdyut9AD1Z4i3XqzIDdF2buSfoduRVnqgbw2VGQylne55Izd0sU4zoiW9IdZkOtRIy7TDcEwY/f4DKzm8oRd0D9JSd3AY7qSl7uAwxMpkLIw3jI035FgtrGGzcOxpsAw59qX/gSFWpoY+erKGTWP+W9oz3nBrvCF9vtQaNs2QIcjHMnR29IZgFacBvaG00gMMEaK00gPUp9x4hsSVCoiGnvGGDvVrildwMiI2nEsL5fAGtIZY5xYXiBd9QEPa+GKGVxXleHtKw6W0ThEppeHg/V3aJw95oI91hOj49BUnYDXtpF/hN1AlJ6Qf4Q9ABRm1LzqVk0h7/cIQAZ8Bmk8ZshhYhh5H0tsaNkvGYwi05v/hMQQKMEjvBP0SSXv9Uv9abCnSWjf4LIJQlV/UV0ouQO28OT7EGdThDMfGFOxGAoMh0Gp4hsEQ6iXl2NWgZb3pj2YO0koP0BecAG1oLlCfW8C9pPSGQDmaKxHxyQxg0ps4nQi1Y7tCW7CPd9XZoc1GTdEm0gtE7WnOvIHdPvyHHwfr130SX7HbBAvkfpH6oTB6uy/9qhNrKI2vfbkkk1Z4hfYZDVjcm0c7ioLbjz6ibQi6FP6iXWmK3yHafEPNKAq5beI3mukMvJrEHJofIlpzoSLq9y49Iz36KmhlbPDamBXg6+QzYunRV0KjxQJcCvEJ9Q8TAetmC/HrromYjUuLGNYTbMFa+ENU5+4zfFRxz0i1TAqo/qkiqr0Uwc5Dq6Bo2I6V8A5FQ6AKr6ooGsLnZ/JkaoZt2c7coJixAaueqYJiKGwNAbGGD+ylx1sd74qjeGA62wUfcdSKHweqiT3SSYEuyjxBt3kb+vGaviH+9k3XEH4LPtQtjoIPo7Qrh+ANtUv44A21q/bBDf1Eu0bxIO1QRqRfEvW1ucGNhSOq6857zBc1oqxlD/DqFfwRbafdKdrOJqZvODBBchzzXOUeoEw5Q55+Chd6AN+jdyAu0r/n9Ed4XvUTjkbX9+xGckVEHv1lp2ICmS9ymzXkd2Hfa/p4ccHRkKacznHRWHTsLY6N+11ZB3ED02s0559eygjeeVOOm0xU78oy4Xpftyz37usxp596hgKzSyn7tEv5voYpQ8NnbY4p1cQzkpo8X9MnmHg2QF9fIWut+5jhSK8kthmmSc0dut/dsYYOlOxqOHpzjl9z8LFWTAuMGHo9slPdEWlpVyOpMrOGPbClXYnlq2DSX2XSY9SlXzbnbCjy8vKkT17VmKmFpQRFj3HD1PxQiNwVsaiNa0MpD93eVjPpAdFzV8/ZVFqwWW4UGfPyovzcUGHqXCnP2/eisZIeCB/Xe1QMf8GB4ZqsYuofC8FlxeD4ZxoMl9nUoJ1anqOjcVewHXQZOslhseX5hSgQW5a+o0isjDdMjTfsGG+4NN7Q/Gd48k03nI1NN3QX1rD1HIw3TI03XBtvODHe8NN4w6U1bD1T4w1da9h+nI7p/AUt/3flkTYQ9QAAAABJRU5ErkJggg=="
     },
     {
-        name: "HORACIO GUTIERREZ",
-        nickname: "THE PUNISHER",
-        stance: "Orthodox",
-        weight: "170lbs",
-        "weightclass": "Welterweight",
-        record: "0-0-0 (W-L-D)",
-        image: "https://thatshirt.com/wp-content/uploads/2017/12/thatshirt-t-shirt-clip-art-martial-arts-mma_fighter_7-39517.jpg",
-        competitiontype: "MMA",
-        promotions: "UFC"
+        name: "Malik Elliot",
+        teaches: "No Gi BJJ, Gi BJJ",
+        belt: "Black",
+        image: "data:image/png;base64,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"
     },
     {
-        name: "MAX PEREZ",
-        nickname: "MAXIMO",
-        stance: "Orthodox",
-        weight: "155lbs",
-        "weightclass": "Lightweight",
-        record: "0-0-0 (W-L-D)",
-        image: "https://thatshirt.com/wp-content/uploads/2017/12/thatshirt-t-shirt-clip-art-martial-arts-mma_fighter_7-39517.jpg",
-        competitiontype: "MMA",
-        promotions: "B2 FIghting Series"
-
+        name: "Nicasio",
+        teaches: "Fighter Class, Gi BJJ, Private Lessons",
+        belt: "Black",
+        image: "data:image/png;base64,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"
     },
     {
-        name: "ALEXIS RODRIGUEZ",
-        nickname: "THE BARBER",
-        stance: "Orthodox",
-        weight: "220lbs",
-        "weightclass": "Heavyweight",
-        record: "0-0-0 (W-L-D)",
-        image: "https://thatshirt.com/wp-content/uploads/2017/12/thatshirt-t-shirt-clip-art-martial-arts-mma_fighter_7-39517.jpg",
-        competitiontype: "MMA",
-        promotions: "Fight Card Ent"
+        name: "Oskar Rozz",
+        teaches: "Morning BJJ, Beginner Striking, Private Lessons",
+        belt: "Purple",
+        image: "data:image/png;base64,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"
     },
     {
-        name: "GABRIEL MOTA",
-        nickname: "HANDS OF STONE",
-        stance: "Orthodox",
-        weight: "205lbs",
-        "weightclass": "Light Heavyweight",
-        record: "0-0-0 (W-L-D)",
-        image: "https://thatshirt.com/wp-content/uploads/2017/12/thatshirt-t-shirt-clip-art-martial-arts-mma_fighter_7-39517.jpg",
-        competitiontype: "MMA, Boxing",
-        promotions: "Bare Knuckle Boxing, LFA"
+        name: "James Dunn",
+        teaches: "MMA Drills, Advanced Striking, Private Lessons",
+        belt: "Purple",
+        image: "data:image/png;base64,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"
     },
     {
-        name: "MIKHAIL WILLIS",
-        nickname: "BANCO",
-        stance: "Southpaw",
-        weight: "145lbs",
-        "weightclass": "Featherweight",
-        record: "0-0-0 (W-L-D)",
-        image: "https://thatshirt.com/wp-content/uploads/2017/12/thatshirt-t-shirt-clip-art-martial-arts-mma_fighter_7-39517.jpg",
-        competitiontype: "MMA, BJJ",
-        promotions: "Fight Card Ent"
+        name: "Horacio Gutierrez",
+        teaches: "Pro Fighter Class, Private Lessons",
+        belt: "Blue",
+        image: "data:image/png;base64,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"
     }
 )
