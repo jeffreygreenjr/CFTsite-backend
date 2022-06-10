@@ -1,7 +1,7 @@
 [
     {
-        "name": "Belal Muhammad",
-        "nickname": "Remember The Name",
+        "name": "BELAL MUHAMMAD",
+        "nickname": "REMEMBER THE NAME",
         "stance": "Orthodox",
         "weight": "170lbs",
         "weightclass": "WelterWeight",
@@ -15,8 +15,8 @@
         ]
     },
     {
-        "name": "Horacio Gutierrez",
-        "nickname": "The Punisher",
+        "name": "HORACIO GUTIERREZ",
+        "nickname": "THE PUNISHER",
         "stance": "Orthodox",
         "weight": "170lbs",
         "weightclass": "Welterweight",
@@ -30,8 +30,8 @@
         ]
     },
     {
-        "name": "Max Perez",
-        "nickname": "Maximo",
+        "name": "MAX PEREZ",
+        "nickname": "MAXIMO",
         "stance": "Orthodox",
         "weight": "155lbs",
         "weightclass": "Lightweight",
@@ -46,8 +46,8 @@
 
     },
     {
-        "name": "Alexis Rodriguez",
-        "nickname": "The Barber",
+        "name": "ALEXIS RODRIGUEZ",
+        "nickname": "THE BARBER",
         "stance": "Orthodox",
         "weight": "220lbs",
         "weightclass": "Heavyweight",
@@ -61,8 +61,8 @@
         ]
     },
     {
-        "name": "Gabriel Mota",
-        "nickname": "Hands of Stone",
+        "name": "GABRIEL MOTA",
+        "nickname": "HANDS OF STONE",
         "stance": "Orthodox",
         "weight": "205lbs",
         "weightclass": "Light Heavyweight",
@@ -78,8 +78,8 @@
         ]
     },
     {
-        "name": "Mikhail Harris",
-        "nickname": "Banco",
+        "name": "MIKHAIL HARRIS",
+        "nickname": "BANCO",
         "stance": "Southpaw",
         "weight": "145lbs",
         "weightclass": "Featherweight",
