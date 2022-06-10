@@ -1,6 +1,6 @@
 // Import Dependencies
 const express = require("express");
-const controllers = require('./controllers')
+// const controllers = require('./controllers')
 const cors = require("cors");
 
 // Declare a variable for our port number
