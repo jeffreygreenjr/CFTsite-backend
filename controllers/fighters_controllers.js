@@ -4,7 +4,7 @@ const router = express.Router();
 const db = require('../models');
 const { populate } = require('../models/Fighter');
 
-// ------ALL FIGHTERS ROUTE -------
+// -------ALL FIGHTERS ROUTE -------
 router.get("/", async (req, res) => {
     try {
         const fighter = await db.Fighter.find({})
@@ -14,25 +14,41 @@ router.get("/", async (req, res) => {
     }
 });
 
-// ------POST NEW FIGHTERS ROUTE------
-router.post('/create', async(req,res)=>{
-    const newFighter = new db.Fighter(req.body)
-    try{
-        const savedFighter = await newFighter.save()
-        res.status(200).json(savedFighter)
-    }catch(err){
-        res.status(400).json(err)
+// ------SHOW FIGHTER ROUTE -------
+router.get("/:id", async (req, res) => {
+    try {
+        const fighterId = await db.Fighter.findById(req.params.id)
+        res.status(200).json(fighterId)
+    } catch(error) {
+        res.status(400).json(error)
     }
 })
 
-router.createPost = async (req, res) => {
+// ------CREATE/POST FIGHTERS ROUTE ------- 
+router.post('/create', async (req, res) =>{
     try {
-      const post = await new Post(req.body).save();
-      await post.populate("user", "first_name last_name cover picture username")
-      res.json(post);
-    } catch (error) {
-      return res.status(500).json({ message: error.message });
+        res.json(await db.Fighter.create(req.body))
+    } catch(error) {
+        res.status(400).json(error)
     }
-  };
+})
+
+// -----EDIT/UPDATE FIGHTER ROUTE ------
+router.put("/:id", async (req, res) => {
+    try {
+        res.json(await db.Fighter.findByIdAndUpdate(req.params.id, req.body))
+    } catch(error) {
+        res.status(400).json(error)
+    }
+})
+
+// -----DELETE FIGHTER ROUTE ------
+router.delete("/:id", async (req, res) => {
+    try {
+        res.json (await db.Fighter.findByIdAndRemove(req.params.id))
+    } catch(error) {
+        res.status(400).json(error)
+    }
+})
 
 module.exports = router;

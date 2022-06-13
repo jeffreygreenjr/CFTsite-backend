@@ -22,12 +22,8 @@
         "weightclass": "Welterweight",
         "record": "0-0-0 (W-L-D)",
         "image": "https://thatshirt.com/wp-content/uploads/2017/12/thatshirt-t-shirt-clip-art-martial-arts-mma_fighter_7-39517.jpg",
-        "competition": [
-            "MMA"
-        ],
-        "promotions": [
-            "UFC"
-        ]
+        "competitiontype": "MMA",
+        "promotions": "UFC"
     },
     {
         "name": "MAX PEREZ",

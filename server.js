@@ -17,6 +17,7 @@ const db = require('./models');
 
 // ------MIDDLEWARE------
 app.use(express.static('public'));
+app.use(express.json())
 // app.use(methodOverride('_method'));
 // app.use(express.urlencoded({extended: false}));
 

@@ -8,7 +8,7 @@ const Coach = require('./models/Coach');
 const Fighter = require('./models/Fighter');
 const Shop = require('./models/Shop')
 
-Shop.create(
+.create(
     {
         name: "CFT Hoodie",
         price: "35.00",

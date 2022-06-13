@@ -3,34 +3,28 @@ const mongoose = require('mongoose')
 const fighterSchema = new mongoose.Schema({
     name: {
         type: String,
-        required: [true, "Fighter's name is required"]
     },
     nickname: {
         type: String,
     },
     stance: {
         type: String,
-        required: [true, "Their stance is required"]
     },
     weight: {
         type: String,
-        required: [true, "Their weight is required"]
     },
     weightclass: {
         type: String,
-        required: [true, "Their weight class is required"]
     },
     record: {
         type: String,
-        required: [true, "Their record is required"]
     },
     image: {
         type: String,
-        default: "https://i.imgur.com/6uWXLaL.png"
+        default: "https://thatshirt.com/wp-content/uploads/2017/12/thatshirt-t-shirt-clip-art-martial-arts-mma_fighter_7-39517.jpg"
     },
     competitiontype: {
         type: String,
-        required: [true, "Their competition types are required"]
     },
     promotions: {
         type: String,
