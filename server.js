@@ -36,6 +36,7 @@ app.use(function (req, res, next) {
 app.use("/classes", controllers.classes);
 app.use("/coachingstaff", controllers.coaches);
 app.use("/fighters", controllers.fighters);
+app.use("/shop", controllers.shop);
 
 // Import JSON files
 const about = require("./about.json");
@@ -78,11 +79,11 @@ app.get("/about", (req, res) => {
 //     }
 // });
 
-// route for retrieving shop items
-app.get("/shop", (req, res) => {
-    // send shop items via JSON
-    res.json(shop);
-  });
+// // route for retrieving shop items
+// app.get("/shop", (req, res) => {
+//     // send shop items via JSON
+//     res.json(shop);
+//   });
 
 
 
