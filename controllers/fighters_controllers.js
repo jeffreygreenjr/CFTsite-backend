@@ -15,7 +15,7 @@ router.get("/", async (req, res) => {
 });
 
 // ------POST NEW FIGHTERS ROUTE------
-router.post('/', async(req,res)=>{
+router.post('/create', async(req,res)=>{
     const newFighter = new db.Fighter(req.body)
     try{
         const savedFighter = await newFighter.save()

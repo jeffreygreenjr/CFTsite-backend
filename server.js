@@ -2,6 +2,7 @@
 const express = require("express");
 const controllers = require('./controllers')
 const cors = require("cors");
+const morgan = require("morgan");
 
 // Create our app object
 const app = express();
@@ -21,6 +22,7 @@ app.use(express.static('public'));
 
 // set up middleware
 app.use(cors());
+app.use(morgan("dev"));
 
 app.use(function (req, res, next) {
     res.header("Access-Control-Allow-Origin", "*");
@@ -41,9 +43,9 @@ app.use("/shop", controllers.shop);
 // Import JSON files
 const about = require("./about.json");
 // const classes = require("./classes.json");
-const coaches = require("./coaches.json");
+// const coaches = require("./coaches.json");
 // const fighters = require("./fighters.json");
-const shop = require("./shop.json");
+// const shop = require("./shop.json");
 
 
 //home route for testing our app
